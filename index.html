@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- VueJs -->
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.41/vue.global.min.js"></script>
     <!-- Axios -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
 </head>
 <body>
     
     <div id="app">
+        <ul>
+            <li v-for="element in randomEmail">{{ element }}</li>
+        </ul>
 
+        <p>{{ thisEmail }}</p>
     </div>
 
     <script src="js/script.js"></script>
