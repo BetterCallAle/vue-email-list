@@ -4,7 +4,6 @@ createApp({
     data(){
         return{
             randomEmail: [],
-            thisEmail: ""
         }
     },
 
